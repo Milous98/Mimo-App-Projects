@@ -5,9 +5,9 @@
 
 body {
     background-color: rgb(66, 58, 73);
-    width: 50%;
+    width: 390px;
+    padding: 50px min(5em, 8%);
     margin: auto;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 10px;

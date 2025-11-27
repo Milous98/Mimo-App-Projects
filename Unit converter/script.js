@@ -12,5 +12,5 @@ function convertNumber() {
         operation = 0.621371;
     }
     let resultat = document.querySelector("#result em");
-    resultat.innerHTML = number * operation;
+    resultat.innerHTML = (number * operation).toFixed(2);
 }
