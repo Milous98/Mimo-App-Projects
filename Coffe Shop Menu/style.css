@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    width: 80vw;
+    max-width: 800px;
+    padding: 10px min(5em, 8%);
+    margin: auto;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+.hat {
+    background-color: blueviolet;
+    height: 50px;
+    border-radius: 20px 20px 0 0;
+}
+
+.text-top {
+    background-color: blanchedalmond;
+    padding: 50px;
+    text-align: center;
+}
+
+.bottom {
+    background-color: rgb(176, 156, 231);
+    padding: 50px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
